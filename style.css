@@ -1,0 +1,104 @@
+body {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.top-two-circles, .top-right-two-circles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-two-circles {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.align-two-circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.one {
+    position: absolute;
+    top: -50%;
+    display: grid;
+    height: 90px;
+    width: 90px;
+    justify-self: center;
+}
+
+.two {
+    width: 125px;
+    height: 80px;
+    position: relative;
+    display: grid;
+}
+
+.three {
+    height: 125px;
+    width: 90px;
+    position: absolute;
+    left: 42.5%;
+    bottom: 15%;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* .clr-zero {
+    background-color: var(--clr-zero);
+}
+.clr-one {
+    background-color: var(--clr-one);
+}
+.clr-two {
+    background-color: var(--clr-two);
+}
+.clr-three {
+    background-color: var(--clr-three);
+}
+.clr-four {
+    background-color: var(--clr-four);
+}
+.clr-five {
+    background-color: var(--clr-five);
+}
+.clr-six {
+    background-color: var(--clr-six);
+}
+.clr-seven {
+    background-color: var(--clr-seven);
+} */
+
+
+/* Color variables */
+:root {
+  --clr-zero: #edecec;
+  --clr-one: #e3e2e2;
+  --clr-two: #afadad;
+  --clr-three: #a9a6a6;
+  --clr-four: #757474;
+  --clr-five: #5f5e5e;
+  --clr-six: #555454;
+  --clr-seven: #4c4c4c;
+}
+
+.white {
+    background-color: white;
+}
+
